@@ -157,7 +157,7 @@ dataSet[dataSetVersion].characterData = [
   { name: "Mynx", img: "mynx.jpg", opts: { race: "werebeast", personality: "vivacious", global: false, alt: false } },
   { name: "Rudd", img: "rudd.jpg", opts: { race: "dragon", personality: "vivacious", global: true, alt: false } },
   { name: "Rufo", img: "rufo.jpg", opts: { race: "werebeast", personality: "vivacious", global: true, alt: false } },
-  { name: "Seline", img: "seline.jpg.jpg", opts: { race: "phantom", personality: "vivacious", global: false, alt: false } },
+  { name: "Seline", img: "seline.jpg", opts: { race: "phantom", personality: "vivacious", global: false, alt: false } },
   { name: "Shoupan", img: "shoupan.jpg", opts: { race: "sprite", personality: "vivacious", global: false, alt: false } },
   { name: "Shuro", img: "shuro.jpg", opts: { race: "werebeast", personality: "vivacious", global: false, alt: false } },
   { name: "Speaki-Maid", img: "speaki-maid.jpg", opts: { race: "phantom", personality: "vivacious", global: false, alt: true } },
