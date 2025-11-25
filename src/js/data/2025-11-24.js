@@ -127,7 +127,7 @@ dataSet[dataSetVersion].characterData = [
   { name: "Diana", img: "diana.jpg", opts: { race: "werebeast", personality: "madness", global: true, alt: false } },
   { name: "Ifrit", img: "ifrit.jpg", opts: { race: "elemental", personality: "madness", global: true, alt: false } },
   { name: "Leets", img: "leets.jpg", opts: { race: "dragon", personality: "madness", global: false, alt: false } },
-  { name: "Maestromk2", img: "maestrojpg", opts: { race: "elf", personality: "madness", global: true, alt: false } },
+  { name: "Maestromk2", img: "maestro.jpg", opts: { race: "elf", personality: "madness", global: true, alt: false } },
   { name: "Maison", img: "maison.jpg", opts: { race: "phantom", personality: "madness", global: true, alt: false } },
   { name: "Mayo", img: "mayo.jpg", opts: { race: "sprite", personality: "madness", global: true, alt: false } },
   { name: "Ner", img: "ner.jpg", opts: { race: "sprite", personality: "madness", global: false, alt: false } },
