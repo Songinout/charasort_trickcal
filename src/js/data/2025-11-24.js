@@ -8,8 +8,8 @@ dataSet[dataSetVersion].options = [
     tooltip: "Check this to restrict to certain races.",
     checked: false,
     sub: [
-      { name: "sprite", key: "sprite" },
-      { name: "werebeast", key: "werebeast" },
+      { name: "Sprite", key: "sprite" },
+      { name: "Werebeast", key: "werebeast" },
       { name: "Elf", key: "elf" },
       { name: "Witch", key: "witch" },
       { name: "Dragon", key: "dragon" },
@@ -50,1021 +50,120 @@ dataSet[dataSetVersion].options = [
 ];
 
 dataSet[dataSetVersion].characterData = [
-  {
-    name: "amelia",
-    img: "amelia.jpg",
-    opts: {
-        race: "elf",
-        personality: "composed",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "asia",
-    img: "asia.jpg",
-    opts: {
-        race: "elf",
-        personality: "composed",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "aya",
-    img: "aya.jpg",
-    opts: {
-        race: "witch",
-        personality: "composed",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "barong",
-    img: "barong.jpg",
-    opts: {
-        race: "phantom",
-        personality: "composed",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "benny",
-    img: "benny.jpg",
-    opts: {
-        race: "werebeast",
-        personality: "composed",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "caesar",
-    img: "caesar.jpg",
-    opts: {
-        race: "elemental",
-        personality: "composed",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "canta",
-    img: "canta.jpg",
-    opts: {
-        race: "sprite",
-        personality: "composed",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "diana-heyday",
-    img: "diana-heyday.jpg",
-    opts: {
-        race: "werebeast",
-        personality: "composed",
-        global: false,
-        alt: true
-    }
-}, {
-    name: "ed",
-    img: "ed.jpg",
-    opts: {
-        race: "elf",
-        personality: "composed",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "elena",
-    img: "elena.jpg",
-    opts: {
-        race: "elf",
-        personality: "composed",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "espi",
-    img: "espi.jpg",
-    opts: {
-        race: "phantom",
-        personality: "composed",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "fricle",
-    img: "fricle.jpg",
-    opts: {
-        race: "witch",
-        personality: "composed",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "gwynn",
-    img: "gwynn.jpg",
-    opts: {
-        race: "werebeast",
-        personality: "composed",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "jade",
-    img: "jade.jpg",
-    opts: {
-        race: "dragon",
-        personality: "composed",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "kommy-swimsuit",
-    img: "kommy-swimsuit.jpg",
-    opts: {
-        race: "werebeast",
-        personality: "composed",
-        global: false,
-        alt: true
-    }
-}, {
-    name: "layze",
-    img: "layze.jpg",
-    opts: {
-        race: "elf",
-        personality: "composed",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "lethe",
-    img: "lethe.jpg",
-    opts: {
-        race: "phantom",
-        personality: "composed",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "meluna",
-    img: "meluna.jpg",
-    opts: {
-        race: "elemental",
-        personality: "composed",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "patula",
-    img: "patula.jpg",
-    opts: {
-        race: "sprite",
-        personality: "composed",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "picora",
-    img: "picora.jpg",
-    opts: {
-        race: "witch",
-        personality: "composed",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "ricotta",
-    img: "ricotta.jpg",
-    opts: {
-        race: "sprite",
-        personality: "composed",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "sylla",
-    img: "sylla.jpg",
-    opts: {
-        race: "elemental",
-        personality: "composed",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "velvet",
-    img: "velvet.jpg",
-    opts: {
-        race: "witch",
-        personality: "composed",
-        global: true,
-        alt: false
-    }
-},
+  { name: "Amelia", img: "amelia.jpg", opts: { race: "elf", personality: "composed", global: true, alt: false } },
+  { name: "Asia", img: "asia.jpg", opts: { race: "elf", personality: "composed", global: false, alt: false } },
+  { name: "Aya", img: "aya.jpg", opts: { race: "witch", personality: "composed", global: true, alt: false } },
+  { name: "Barong", img: "barong.jpg", opts: { race: "phantom", personality: "composed", global: false, alt: false } },
+  { name: "Benny", img: "benny.jpg", opts: { race: "werebeast", personality: "composed", global: false, alt: false } },
+  { name: "Caesar", img: "caesar.jpg", opts: { race: "elemental", personality: "composed", global: false, alt: false } },
+  { name: "Canta", img: "canta.jpg", opts: { race: "sprite", personality: "composed", global: false, alt: false } },
+  { name: "Diana-Heyday", img: "diana-heyday.jpg", opts: { race: "werebeast", personality: "composed", global: false, alt: true } },
+  { name: "Ed", img: "ed.jpg", opts: { race: "elf", personality: "composed", global: false, alt: false } },
+  { name: "Elena", img: "elena.jpg", opts: { race: "elf", personality: "composed", global: false, alt: false } },
+  { name: "Espi", img: "espi.jpg", opts: { race: "phantom", personality: "composed", global: true, alt: false } },
+  { name: "Fricle", img: "fricle.jpg", opts: { race: "witch", personality: "composed", global: true, alt: false } },
+  { name: "Gwynn", img: "gwynn.jpg", opts: { race: "werebeast", personality: "composed", global: false, alt: false } },
+  { name: "Jade", img: "jade.jpg", opts: { race: "dragon", personality: "composed", global: true, alt: false } },
+  { name: "Kommy-Swimsuit", img: "kommy-swimsuit.jpg", opts: { race: "werebeast", personality: "composed", global: false, alt: true } },
+  { name: "Layze", img: "layze.jpg", opts: { race: "elf", personality: "composed", global: true, alt: false } },
+  { name: "Lethe", img: "lethe.jpg", opts: { race: "phantom", personality: "composed", global: false, alt: false } },
+  { name: "Meluna", img: "meluna.jpg", opts: { race: "elemental", personality: "composed", global: true, alt: false } },
+  { name: "Patula", img: "patula.jpg", opts: { race: "sprite", personality: "composed", global: true, alt: false } },
+  { name: "Picora", img: "picora.jpg", opts: { race: "witch", personality: "composed", global: true, alt: false } },
+  { name: "Ricotta", img: "ricotta.jpg", opts: { race: "sprite", personality: "composed", global: false, alt: false } },
+  { name: "Sylla", img: "sylla.jpg", opts: { race: "elemental", personality: "composed", global: true, alt: false } },
+  { name: "Velvet", img: "velvet.jpg", opts: { race: "witch", personality: "composed", global: true, alt: false } },
 
-{
-    name: "asana",
-    img: "asana.jpg",
-    opts: {
-        race: "witch",
-        personality: "depressed",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "ashur",
-    img: "ashur.jpg",
-    opts: {
-        race: "sprite",
-        personality: "depressed",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "barie",
-    img: "barie.jpg",
-    opts: {
-        race: "witch",
-        personality: "depressed",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "blanchet",
-    img: "blanchet.jpg",
-    opts: {
-        race: "elemental",
-        personality: "depressed",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "chopi",
-    img: "chopi.jpg",
-    opts: {
-        race: "werebeast",
-        personality: "depressed",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "festa",
-    img: "festa.jpg",
-    opts: {
-        race: "elf",
-        personality: "depressed",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "hilde",
-    img: "hilde.jpg",
-    opts: {
-        race: "elf",
-        personality: "depressed",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "joan",
-    img: "joan.jpg",
-    opts: {
-        race: "sprite",
-        personality: "depressed",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "kidian",
-    img: "kidian.jpg",
-    opts: {
-        race: "dragon",
-        personality: "depressed",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "kommy",
-    img: "kommy.jpg",
-    opts: {
-        race: "werebeast",
-        personality: "depressed",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "leone",
-    img: "leone.jpg",
-    opts: {
-        race: "werebeast",
-        personality: "depressed",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "levi",
-    img: "levi.jpg",
-    opts: {
-        race: "witch",
-        personality: "depressed",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "orr",
-    img: "orr.jpg",
-    opts: {
-        race: "elf",
-        personality: "depressed",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "posher",
-    img: "posher.jpg",
-    opts: {
-        race: "witch",
-        personality: "depressed",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "rim",
-    img: "rim.jpg",
-    opts: {
-        race: "phantom",
-        personality: "depressed",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "risty",
-    img: "risty.jpg",
-    opts: {
-        race: "elf",
-        personality: "depressed",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "rohne-mayor",
-    img: "rohne-mayor.jpg",
-    opts: {
-        race: "elf",
-        personality: "depressed",
-        global: false,
-        alt: true
-    }
-}, {
-    name: "shasha",
-    img: "shasha.jpg",
-    opts: {
-        race: "sprite",
-        personality: "depressed",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "snorky",
-    img: "snorky.jpg",
-    opts: {
-        race: "witch",
-        personality: "depressed",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "veroo",
-    img: "veroo.jpg",
-    opts: {
-        race: "phantom",
-        personality: "depressed",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "xxionx",
-    img: "xxionx.jpg",
-    opts: {
-        race: "phantom",
-        personality: "depressed",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "yomi",
-    img: "yomi.jpg",
-    opts: {
-        race: "mystic",
-        personality: "depressed",
-        global: true,
-        alt: false
-    }
-},
+  { name: "Asana", img: "asana.jpg", opts: { race: "witch", personality: "depressed", global: false, alt: false } },
+  { name: "Ashur", img: "ashur.jpg", opts: { race: "sprite", personality: "depressed", global: true, alt: false } },
+  { name: "Barie", img: "barie.jpg", opts: { race: "witch", personality: "depressed", global: false, alt: false } },
+  { name: "Blanchet", img: "blanchet.jpg", opts: { race: "elemental", personality: "depressed", global: false, alt: false } },
+  { name: "Chopi", img: "chopi.jpg", opts: { race: "werebeast", personality: "depressed", global: true, alt: false } },
+  { name: "Festa", img: "festa.jpg", opts: { race: "elf", personality: "depressed", global: true, alt: false } },
+  { name: "Hilde", img: "hilde.jpg", opts: { race: "elf", personality: "depressed", global: true, alt: false } },
+  { name: "Joan", img: "joan.jpg", opts: { race: "sprite", personality: "depressed", global: false, alt: false } },
+  { name: "Kidian", img: "kidian.jpg", opts: { race: "dragon", personality: "depressed", global: true, alt: false } },
+  { name: "Kommy", img: "kommy.jpg", opts: { race: "werebeast", personality: "depressed", global: true, alt: false } },
+  { name: "Leone", img: "leone.jpg", opts: { race: "werebeast", personality: "depressed", global: false, alt: false } },
+  { name: "Levi", img: "levi.jpg", opts: { race: "witch", personality: "depressed", global: true, alt: false } },
+  { name: "Orr", img: "orr.jpg", opts: { race: "elf", personality: "depressed", global: false, alt: false } },
+  { name: "Posher", img: "posher.jpg", opts: { race: "witch", personality: "depressed", global: true, alt: false } },
+  { name: "Rim", img: "rim.jpg", opts: { race: "phantom", personality: "depressed", global: true, alt: false } },
+  { name: "Risty", img: "risty.jpg", opts: { race: "elf", personality: "depressed", global: false, alt: false } },
+  { name: "Rohne-Mayor", img: "rohne-mayor.jpg", opts: { race: "elf", personality: "depressed", global: false, alt: true } },
+  { name: "Shasha", img: "shasha.jpg", opts: { race: "sprite", personality: "depressed", global: false, alt: false } },
+  { name: "Snorky", img: "snorky.jpg", opts: { race: "witch", personality: "depressed", global: false, alt: false } },
+  { name: "Veroo", img: "veroo.jpg", opts: { race: "phantom", personality: "depressed", global: true, alt: false } },
+  { name: "Xxionx", img: "xion.jpg", opts: { race: "phantom", personality: "depressed", global: true, alt: false } },
+  { name: "Yomi", img: "yomi.jpg", opts: { race: "mystic", personality: "depressed", global: true, alt: false } },
 
-{
-    name: "allet",
-    img: "allet.jpg",
-    opts: {
-        race: "elf",
-        personality: "innocence",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "bigwood",
-    img: "bigwood.jpg",
-    opts: {
-        race: "elemental",
-        personality: "innocence",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "daya",
-    img: "daya.jpg",
-    opts: {
-        race: "dragon",
-        personality: "innocence",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "erpin",
-    img: "erpin.jpg",
-    opts: {
-        race: "sprite",
-        personality: "innocence",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "gabia",
-    img: "gabia.jpg",
-    opts: {
-        race: "elemental",
-        personality: "innocence",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "haley",
-    img: "haley.jpg",
-    opts: {
-        race: "elf",
-        personality: "innocence",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "kathy",
-    img: "kathy.jpg",
-    opts: {
-        race: "elf",
-        personality: "innocence",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "kyarot",
-    img: "kyarot.jpg",
-    opts: {
-        race: "sprite",
-        personality: "innocence",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "kyuri",
-    img: "kyuri.jpg",
-    opts: {
-        race: "sprite",
-        personality: "innocence",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "mago",
-    img: "mago.jpg",
-    opts: {
-        race: "werebeast",
-        personality: "innocence",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "mayo-cool",
-    img: "mayo-cool.jpg",
-    opts: {
-        race: "sprite",
-        personality: "innocence",
-        global: false,
-        alt: true
-    }
-}, {
-    name: "mute",
-    img: "mute.jpg",
-    opts: {
-        race: "elemental",
-        personality: "innocence",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "naia",
-    img: "naia.jpg",
-    opts: {
-        race: "elemental",
-        personality: "innocence",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "opal",
-    img: "opal.jpg",
-    opts: {
-        race: "dragon",
-        personality: "innocence",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "raika",
-    img: "raika.jpg",
-    opts: {
-        race: "elemental",
-        personality: "innocence",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "ran",
-    img: "ran.jpg",
-    opts: {
-        race: "werebeast",
-        personality: "innocence",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "rohne",
-    img: "rohne.jpg",
-    opts: {
-        race: "elf",
-        personality: "innocence",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "sari",
-    img: "sari.jpg",
-    opts: {
-        race: "phantom",
-        personality: "innocence",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "sherum",
-    img: "sherum.jpg",
-    opts: {
-        race: "witch",
-        personality: "innocence",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "silphir",
-    img: "silphir.jpg",
-    opts: {
-        race: "dragon",
-        personality: "innocence",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "speaki",
-    img: "speaki.jpg",
-    opts: {
-        race: "phantom",
-        personality: "innocence",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "vivi",
-    img: "vivi.jpg",
-    opts: {
-        race: "dragon",
-        personality: "innocence",
-        global: true,
-        alt: false
-    }
-},
+  { name: "Allet", img: "allet.jpg", opts: { race: "elf", personality: "innocence", global: true, alt: false } },
+  { name: "Bigwood", img: "bigwood.jpg", opts: { race: "elemental", personality: "innocence", global: true, alt: false } },
+  { name: "Daya", img: "daya.jpg", opts: { race: "dragon", personality: "innocence", global: false, alt: false } },
+  { name: "Erpin", img: "erpin.jpg", opts: { race: "sprite", personality: "innocence", global: true, alt: false } },
+  { name: "Gabia", img: "gabia.jpg", opts: { race: "elemental", personality: "innocence", global: true, alt: false } },
+  { name: "Haley", img: "haley.jpg", opts: { race: "elf", personality: "innocence", global: true, alt: false } },
+  { name: "Kathy", img: "kathy.jpg", opts: { race: "elf", personality: "innocence", global: false, alt: false } },
+  { name: "Kyarot", img: "kyarot.jpg", opts: { race: "sprite", personality: "innocence", global: false, alt: false } },
+  { name: "Kyuri", img: "kyuri.jpg", opts: { race: "sprite", personality: "innocence", global: true, alt: false } },
+  { name: "Mago", img: "mago.jpg", opts: { race: "werebeast", personality: "innocence", global: true, alt: false } },
+  { name: "Mayo-Cool", img: "mayo-cool.jpg", opts: { race: "sprite", personality: "innocence", global: false, alt: true } },
+  { name: "Mute", img: "mute.jpg", opts: { race: "elemental", personality: "innocence", global: false, alt: false } },
+  { name: "Naia", img: "naia.jpg", opts: { race: "elemental", personality: "innocence", global: false, alt: false } },
+  { name: "Opal", img: "opal.jpg", opts: { race: "dragon", personality: "innocence", global: false, alt: false } },
+  { name: "Raika", img: "raika.jpg", opts: { race: "elemental", personality: "innocence", global: false, alt: false } },
+  { name: "Ran", img: "ran.jpg", opts: { race: "werebeast", personality: "innocence", global: false, alt: false } },
+  { name: "Rohne", img: "rohne.jpg", opts: { race: "elf", personality: "innocence", global: false, alt: false } },
+  { name: "Sari", img: "sari.jpg", opts: { race: "phantom", personality: "innocence", global: true, alt: false } },
+  { name: "Sherum", img: "sherum.jpg", opts: { race: "witch", personality: "innocence", global: false, alt: false } },
+  { name: "Silphir", img: "silphir.jpg", opts: { race: "dragon", personality: "innocence", global: true, alt: false } },
+  { name: "Speaki", img: "speaki.jpg", opts: { race: "phantom", personality: "innocence", global: true, alt: false } },
+  { name: "Vivi", img: "vivi.jpg", opts: { race: "dragon", personality: "innocence", global: true, alt: false } },
 
-{
-    name: "alice",
-    img: "alice.jpg",
-    opts: {
-        race: "phantom",
-        personality: "madness",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "annette",
-    img: "annette.jpg",
-    opts: {
-        race: "dragon",
-        personality: "madness",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "belita",
-    img: "belita.jpg",
-    opts: {
-        race: "witch",
-        personality: "madness",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "chloe",
-    img: "chloe.jpg",
-    opts: {
-        race: "sprite",
-        personality: "madness",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "diana",
-    img: "diana.jpg",
-    opts: {
-        race: "werebeast",
-        personality: "madness",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "ifrit",
-    img: "ifrit.jpg",
-    opts: {
-        race: "elemental",
-        personality: "madness",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "leets",
-    img: "leets.jpg",
-    opts: {
-        race: "dragon",
-        personality: "madness",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "maestromk2",
-    img: "maestromk2.jpg",
-    opts: {
-        race: "elf",
-        personality: "madness",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "maison",
-    img: "maison.jpg",
-    opts: {
-        race: "phantom",
-        personality: "madness",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "mayo",
-    img: "mayo.jpg",
-    opts: {
-        race: "sprite",
-        personality: "madness",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "ner",
-    img: "ner.jpg",
-    opts: {
-        race: "sprite",
-        personality: "madness",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "neti",
-    img: "neti.jpg",
-    opts: {
-        race: "dragon",
-        personality: "madness",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "pira",
-    img: "pira.jpg",
-    opts: {
-        race: "dragon",
-        personality: "madness",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "polan",
-    img: "polan.jpg",
-    opts: {
-        race: "sprite",
-        personality: "madness",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "renewa",
-    img: "renewa.jpg",
-    opts: {
-        race: "elf",
-        personality: "madness",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "rim-chaos",
-    img: "rim-chaos.jpg",
-    opts: {
-        race: "phantom",
-        personality: "madness",
-        global: false,
-        alt: true
-    }
-}, {
-    name: "rollet",
-    img: "rollet.jpg",
-    opts: {
-        race: "witch",
-        personality: "madness",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "shaydi",
-    img: "shaydi.jpg",
-    opts: {
-        race: "phantom",
-        personality: "madness",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "sist",
-    img: "sist.jpg",
-    opts: {
-        race: "dragon",
-        personality: "madness",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "tig-hero",
-    img: "tig-hero.jpg",
-    opts: {
-        race: "werebeast",
-        personality: "madness",
-        global: false,
-        alt: true
-    }
-}, {
-    name: "yumimi",
-    img: "yumimi.jpg",
-    opts: {
-        race: "werebeast",
-        personality: "madness",
-        global: true,
-        alt: false
-    }
-},
+  { name: "Alice", img: "alice.jpg", opts: { race: "phantom", personality: "madness", global: true, alt: false } },
+  { name: "Annette", img: "annette.jpg", opts: { race: "dragon", personality: "madness", global: false, alt: false } },
+  { name: "Belita", img: "belita.jpg", opts: { race: "witch", personality: "madness", global: true, alt: false } },
+  { name: "Chloe", img: "chloe.jpg", opts: { race: "sprite", personality: "madness", global: true, alt: false } },
+  { name: "Diana", img: "diana.jpg", opts: { race: "werebeast", personality: "madness", global: true, alt: false } },
+  { name: "Ifrit", img: "ifrit.jpg", opts: { race: "elemental", personality: "madness", global: true, alt: false } },
+  { name: "Leets", img: "leets.jpg", opts: { race: "dragon", personality: "madness", global: false, alt: false } },
+  { name: "Maestromk2", img: "maestrojpg", opts: { race: "elf", personality: "madness", global: true, alt: false } },
+  { name: "Maison", img: "maison.jpg", opts: { race: "phantom", personality: "madness", global: true, alt: false } },
+  { name: "Mayo", img: "mayo.jpg", opts: { race: "sprite", personality: "madness", global: true, alt: false } },
+  { name: "Ner", img: "ner.jpg", opts: { race: "sprite", personality: "madness", global: false, alt: false } },
+  { name: "Neti", img: "neti.jpg", opts: { race: "dragon", personality: "madness", global: false, alt: false } },
+  { name: "Pira", img: "pira.jpg", opts: { race: "dragon", personality: "madness", global: false, alt: false } },
+  { name: "Polan", img: "polan.jpg", opts: { race: "sprite", personality: "madness", global: false, alt: false } },
+  { name: "Renewa", img: "renewa.jpg", opts: { race: "elf", personality: "madness", global: false, alt: false } },
+  { name: "Rim-Chaos", img: "rim-chaos.jpg", opts: { race: "phantom", personality: "madness", global: false, alt: true } },
+  { name: "Rollet", img: "rollet.jpg", opts: { race: "witch", personality: "madness", global: false, alt: false } },
+  { name: "Shaydi", img: "shaydi.jpg", opts: { race: "phantom", personality: "madness", global: true, alt: false } },
+  { name: "Sist", img: "sist.jpg", opts: { race: "dragon", personality: "madness", global: true, alt: false } },
+  { name: "Tig-Hero", img: "tig-hero.jpg", opts: { race: "werebeast", personality: "madness", global: false, alt: true } },
+  { name: "Yumimi", img: "yumimi.jpg", opts: { race: "werebeast", personality: "madness", global: true, alt: false } },
 
-{
-    name: "arco",
-    img: "arco.jpg",
-    opts: {
-        race: "elemental",
-        personality: "vivacious",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "bana",
-    img: "bana.jpg",
-    opts: {
-        race: "werebeast",
-        personality: "vivacious",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "beni",
-    img: "beni.jpg",
-    opts: {
-        race: "werebeast",
-        personality: "vivacious",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "butter",
-    img: "butter.jpg",
-    opts: {
-        race: "werebeast",
-        personality: "vivacious",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "canna",
-    img: "canna.jpg",
-    opts: {
-        race: "elf",
-        personality: "vivacious",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "carren",
-    img: "carren.jpg",
-    opts: {
-        race: "sprite",
-        personality: "vivacious",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "epica",
-    img: "epica.jpg",
-    opts: {
-        race: "werebeast",
-        personality: "vivacious",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "jubee",
-    img: "jubee.jpg",
-    opts: {
-        race: "elemental",
-        personality: "vivacious",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "makasha",
-    img: "makasha.jpg",
-    opts: {
-        race: "witch",
-        personality: "vivacious",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "marie",
-    img: "marie.jpg",
-    opts: {
-        race: "sprite",
-        personality: "vivacious",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "miro",
-    img: "miro.jpg",
-    opts: {
-        race: "elemental",
-        personality: "vivacious",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "momo",
-    img: "momo.jpg",
-    opts: {
-        race: "werebeast",
-        personality: "vivacious",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "mynx",
-    img: "mynx.jpg",
-    opts: {
-        race: "werebeast",
-        personality: "vivacious",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "rudd",
-    img: "rudd.jpg",
-    opts: {
-        race: "dragon",
-        personality: "vivacious",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "rufo",
-    img: "rufo.jpg",
-    opts: {
-        race: "werebeast",
-        personality: "vivacious",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "selline",
-    img: "selline.jpg",
-    opts: {
-        race: "phantom",
-        personality: "vivacious",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "shoupan",
-    img: "shoupan.jpg",
-    opts: {
-        race: "sprite",
-        personality: "vivacious",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "shuro",
-    img: "shuro.jpg",
-    opts: {
-        race: "werebeast",
-        personality: "vivacious",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "speaki-maid",
-    img: "speaki-maid.jpg",
-    opts: {
-        race: "phantom",
-        personality: "vivacious",
-        global: false,
-        alt: true
-    }
-}, {
-    name: "taida",
-    img: "taida.jpg",
-    opts: {
-        race: "elf",
-        personality: "vivacious",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "tig",
-    img: "tig.jpg",
-    opts: {
-        race: "werebeast",
-        personality: "vivacious",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "ui",
-    img: "ui.jpg",
-    opts: {
-        race: "elemental",
-        personality: "vivacious",
-        global: true,
-        alt: false
-    }
-}, {
-    name: "vela",
-    img: "vela.jpg",
-    opts: {
-        race: "phantom",
-        personality: "vivacious",
-        global: false,
-        alt: false
-    }
-}, {
-    name: "uros",
-    img: "uros.jpg",
-    opts: {
-        race: "werebeast",
-        personality: "resonance",
-        global: false,
-        alt: false
-    }
-}
+  { name: "Arco", img: "arco.jpg", opts: { race: "elemental", personality: "vivacious", global: false, alt: false } },
+  { name: "Bana", img: "bana.jpg", opts: { race: "werebeast", personality: "vivacious", global: false, alt: false } },
+  { name: "Beni", img: "beni.jpg", opts: { race: "werebeast", personality: "vivacious", global: true, alt: false } },
+  { name: "Butter", img: "butter.jpg", opts: { race: "werebeast", personality: "vivacious", global: true, alt: false } },
+  { name: "Canna", img: "canna.jpg", opts: { race: "elf", personality: "vivacious", global: true, alt: false } },
+  { name: "Carren", img: "carren.jpg", opts: { race: "sprite", personality: "vivacious", global: true, alt: false } },
+  { name: "Epica", img: "epica.jpg", opts: { race: "werebeast", personality: "vivacious", global: false, alt: false } },
+  { name: "Jubee", img: "jubee.jpg", opts: { race: "elemental", personality: "vivacious", global: true, alt: false } },
+  { name: "Makasha", img: "makasha.jpg", opts: { race: "witch", personality: "vivacious", global: false, alt: false } },
+  { name: "Marie", img: "marie.jpg", opts: { race: "sprite", personality: "vivacious", global: true, alt: false } },
+  { name: "Miro", img: "miro.jpg", opts: { race: "elemental", personality: "vivacious", global: false, alt: false } },
+  { name: "Momo", img: "momo.jpg", opts: { race: "werebeast", personality: "vivacious", global: true, alt: false } },
+  { name: "Mynx", img: "mynx.jpg", opts: { race: "werebeast", personality: "vivacious", global: false, alt: false } },
+  { name: "Rudd", img: "rudd.jpg", opts: { race: "dragon", personality: "vivacious", global: true, alt: false } },
+  { name: "Rufo", img: "rufo.jpg", opts: { race: "werebeast", personality: "vivacious", global: true, alt: false } },
+  { name: "Seline", img: "seline.jpg.jpg", opts: { race: "phantom", personality: "vivacious", global: false, alt: false } },
+  { name: "Shoupan", img: "shoupan.jpg", opts: { race: "sprite", personality: "vivacious", global: false, alt: false } },
+  { name: "Shuro", img: "shuro.jpg", opts: { race: "werebeast", personality: "vivacious", global: false, alt: false } },
+  { name: "Speaki-Maid", img: "speaki-maid.jpg", opts: { race: "phantom", personality: "vivacious", global: false, alt: true } },
+  { name: "Taida", img: "taida.jpg", opts: { race: "elf", personality: "vivacious", global: false, alt: false } },
+  { name: "Tig", img: "tig.jpg", opts: { race: "werebeast", personality: "vivacious", global: false, alt: false } },
+  { name: "Ui", img: "ui.jpg", opts: { race: "elemental", personality: "vivacious", global: true, alt: false } },
+  { name: "Vela", img: "vela.jpg", opts: { race: "phantom", personality: "vivacious", global: false, alt: false } },
+  { name: "Uros", img: "uros.jpg", opts: { race: "werebeast", personality: "resonance", global: false, alt: false } }
 ];
