@@ -52,7 +52,7 @@ dataSet[dataSetVersion].options = [
 dataSet[dataSetVersion].characterData = [
   {
     name: "amelia",
-    img: "amelia.jpg",
+    img: "amelia.webp",
     opts: {
         race: "elf",
         personality: "composed",
@@ -61,7 +61,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "asia",
-    img: "asia.jpg",
+    img: "asia.webp",
     opts: {
         race: "elf",
         personality: "composed",
@@ -70,7 +70,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "aya",
-    img: "aya.jpg",
+    img: "aya.webp",
     opts: {
         race: "witch",
         personality: "composed",
@@ -79,7 +79,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "barong",
-    img: "barong.jpg",
+    img: "barong.webp",
     opts: {
         race: "phantom",
         personality: "composed",
@@ -88,7 +88,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "benny",
-    img: "benny.jpg",
+    img: "benny.webp",
     opts: {
         race: "werebeast",
         personality: "composed",
@@ -97,7 +97,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "caesar",
-    img: "caesar.jpg",
+    img: "caesar.webp",
     opts: {
         race: "elemental",
         personality: "composed",
@@ -106,7 +106,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "canta",
-    img: "canta.jpg",
+    img: "canta.webp",
     opts: {
         race: "sprite",
         personality: "composed",
@@ -115,7 +115,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "diana-heyday",
-    img: "diana-heyday.jpg",
+    img: "diana-heyday.webp",
     opts: {
         race: "werebeast",
         personality: "composed",
@@ -124,7 +124,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "ed",
-    img: "ed.jpg",
+    img: "ed.webp",
     opts: {
         race: "elf",
         personality: "composed",
@@ -133,7 +133,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "elena",
-    img: "elena.jpg",
+    img: "elena.webp",
     opts: {
         race: "elf",
         personality: "composed",
@@ -142,7 +142,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "espi",
-    img: "espi.jpg",
+    img: "espi.webp",
     opts: {
         race: "phantom",
         personality: "composed",
@@ -151,7 +151,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "fricle",
-    img: "fricle.jpg",
+    img: "fricle.webp",
     opts: {
         race: "witch",
         personality: "composed",
@@ -160,7 +160,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "gwynn",
-    img: "gwynn.jpg",
+    img: "gwynn.webp",
     opts: {
         race: "werebeast",
         personality: "composed",
@@ -169,7 +169,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "jade",
-    img: "jade.jpg",
+    img: "jade.webp",
     opts: {
         race: "dragon",
         personality: "composed",
@@ -178,7 +178,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "kommy-swimsuit",
-    img: "kommy-swimsuit.jpg",
+    img: "kommy-swimsuit.webp",
     opts: {
         race: "werebeast",
         personality: "composed",
@@ -187,7 +187,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "layze",
-    img: "layze.jpg",
+    img: "layze.webp",
     opts: {
         race: "elf",
         personality: "composed",
@@ -196,7 +196,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "lethe",
-    img: "lethe.jpg",
+    img: "lethe.webp",
     opts: {
         race: "phantom",
         personality: "composed",
@@ -205,7 +205,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "meluna",
-    img: "meluna.jpg",
+    img: "meluna.webp",
     opts: {
         race: "elemental",
         personality: "composed",
@@ -214,7 +214,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "patula",
-    img: "patula.jpg",
+    img: "patula.webp",
     opts: {
         race: "sprite",
         personality: "composed",
@@ -223,7 +223,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "picora",
-    img: "picora.jpg",
+    img: "picora.webp",
     opts: {
         race: "witch",
         personality: "composed",
@@ -232,7 +232,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "ricotta",
-    img: "ricotta.jpg",
+    img: "ricotta.webp",
     opts: {
         race: "sprite",
         personality: "composed",
@@ -241,7 +241,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "sylla",
-    img: "sylla.jpg",
+    img: "sylla.webp",
     opts: {
         race: "elemental",
         personality: "composed",
@@ -250,7 +250,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "velvet",
-    img: "velvet.jpg",
+    img: "velvet.webp",
     opts: {
         race: "witch",
         personality: "composed",
@@ -261,7 +261,7 @@ dataSet[dataSetVersion].characterData = [
 
 {
     name: "asana",
-    img: "asana.jpg",
+    img: "asana.webp",
     opts: {
         race: "witch",
         personality: "depressed",
@@ -270,7 +270,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "ashur",
-    img: "ashur.jpg",
+    img: "ashur.webp",
     opts: {
         race: "sprite",
         personality: "depressed",
@@ -279,7 +279,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "barie",
-    img: "barie.jpg",
+    img: "barie.webp",
     opts: {
         race: "witch",
         personality: "depressed",
@@ -288,7 +288,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "blanchet",
-    img: "blanchet.jpg",
+    img: "blanchet.webp",
     opts: {
         race: "elemental",
         personality: "depressed",
@@ -297,7 +297,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "chopi",
-    img: "chopi.jpg",
+    img: "chopi.webp",
     opts: {
         race: "werebeast",
         personality: "depressed",
@@ -306,7 +306,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "festa",
-    img: "festa.jpg",
+    img: "festa.webp",
     opts: {
         race: "elf",
         personality: "depressed",
@@ -315,7 +315,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "hilde",
-    img: "hilde.jpg",
+    img: "hilde.webp",
     opts: {
         race: "elf",
         personality: "depressed",
@@ -324,7 +324,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "joan",
-    img: "joan.jpg",
+    img: "joan.webp",
     opts: {
         race: "sprite",
         personality: "depressed",
@@ -333,7 +333,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "kidian",
-    img: "kidian.jpg",
+    img: "kidian.webp",
     opts: {
         race: "dragon",
         personality: "depressed",
@@ -342,7 +342,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "kommy",
-    img: "kommy.jpg",
+    img: "kommy.webp",
     opts: {
         race: "werebeast",
         personality: "depressed",
@@ -351,7 +351,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "leone",
-    img: "leone.jpg",
+    img: "leone.webp",
     opts: {
         race: "werebeast",
         personality: "depressed",
@@ -360,7 +360,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "levi",
-    img: "levi.jpg",
+    img: "levi.webp",
     opts: {
         race: "witch",
         personality: "depressed",
@@ -369,7 +369,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "orr",
-    img: "orr.jpg",
+    img: "orr.webp",
     opts: {
         race: "elf",
         personality: "depressed",
@@ -378,7 +378,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "posher",
-    img: "posher.jpg",
+    img: "posher.webp",
     opts: {
         race: "witch",
         personality: "depressed",
@@ -387,7 +387,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "rim",
-    img: "rim.jpg",
+    img: "rim.webp",
     opts: {
         race: "phantom",
         personality: "depressed",
@@ -396,7 +396,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "risty",
-    img: "risty.jpg",
+    img: "risty.webp",
     opts: {
         race: "elf",
         personality: "depressed",
@@ -405,7 +405,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "rohne-mayor",
-    img: "rohne-mayor.jpg",
+    img: "rohne-mayor.webp",
     opts: {
         race: "elf",
         personality: "depressed",
@@ -414,7 +414,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "shasha",
-    img: "shasha.jpg",
+    img: "shasha.webp",
     opts: {
         race: "sprite",
         personality: "depressed",
@@ -423,7 +423,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "snorky",
-    img: "snorky.jpg",
+    img: "snorky.webp",
     opts: {
         race: "witch",
         personality: "depressed",
@@ -432,7 +432,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "veroo",
-    img: "veroo.jpg",
+    img: "veroo.webp",
     opts: {
         race: "phantom",
         personality: "depressed",
@@ -441,7 +441,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "xxionx",
-    img: "xxionx.jpg",
+    img: "xxionx.webp",
     opts: {
         race: "phantom",
         personality: "depressed",
@@ -450,7 +450,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "yomi",
-    img: "yomi.jpg",
+    img: "yomi.webp",
     opts: {
         race: "mystic",
         personality: "depressed",
@@ -461,7 +461,7 @@ dataSet[dataSetVersion].characterData = [
 
 {
     name: "allet",
-    img: "allet.jpg",
+    img: "allet.webp",
     opts: {
         race: "elf",
         personality: "innocence",
@@ -470,7 +470,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "bigwood",
-    img: "bigwood.jpg",
+    img: "bigwood.webp",
     opts: {
         race: "elemental",
         personality: "innocence",
@@ -479,7 +479,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "daya",
-    img: "daya.jpg",
+    img: "daya.webp",
     opts: {
         race: "dragon",
         personality: "innocence",
@@ -488,7 +488,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "erpin",
-    img: "erpin.jpg",
+    img: "erpin.webp",
     opts: {
         race: "sprite",
         personality: "innocence",
@@ -497,7 +497,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "gabia",
-    img: "gabia.jpg",
+    img: "gabia.webp",
     opts: {
         race: "elemental",
         personality: "innocence",
@@ -506,7 +506,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "haley",
-    img: "haley.jpg",
+    img: "haley.webp",
     opts: {
         race: "elf",
         personality: "innocence",
@@ -515,7 +515,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "kathy",
-    img: "kathy.jpg",
+    img: "kathy.webp",
     opts: {
         race: "elf",
         personality: "innocence",
@@ -524,7 +524,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "kyarot",
-    img: "kyarot.jpg",
+    img: "kyarot.webp",
     opts: {
         race: "sprite",
         personality: "innocence",
@@ -533,7 +533,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "kyuri",
-    img: "kyuri.jpg",
+    img: "kyuri.webp",
     opts: {
         race: "sprite",
         personality: "innocence",
@@ -542,7 +542,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "mago",
-    img: "mago.jpg",
+    img: "mago.webp",
     opts: {
         race: "werebeast",
         personality: "innocence",
@@ -551,7 +551,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "mayo-cool",
-    img: "mayo-cool.jpg",
+    img: "mayo-cool.webp",
     opts: {
         race: "sprite",
         personality: "innocence",
@@ -560,7 +560,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "mute",
-    img: "mute.jpg",
+    img: "mute.webp",
     opts: {
         race: "elemental",
         personality: "innocence",
@@ -569,7 +569,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "naia",
-    img: "naia.jpg",
+    img: "naia.webp",
     opts: {
         race: "elemental",
         personality: "innocence",
@@ -578,7 +578,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "opal",
-    img: "opal.jpg",
+    img: "opal.webp",
     opts: {
         race: "dragon",
         personality: "innocence",
@@ -587,7 +587,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "raika",
-    img: "raika.jpg",
+    img: "raika.webp",
     opts: {
         race: "elemental",
         personality: "innocence",
@@ -596,7 +596,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "ran",
-    img: "ran.jpg",
+    img: "ran.webp",
     opts: {
         race: "werebeast",
         personality: "innocence",
@@ -605,7 +605,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "rohne",
-    img: "rohne.jpg",
+    img: "rohne.webp",
     opts: {
         race: "elf",
         personality: "innocence",
@@ -614,7 +614,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "sari",
-    img: "sari.jpg",
+    img: "sari.webp",
     opts: {
         race: "phantom",
         personality: "innocence",
@@ -623,7 +623,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "sherum",
-    img: "sherum.jpg",
+    img: "sherum.webp",
     opts: {
         race: "witch",
         personality: "innocence",
@@ -632,7 +632,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "silphir",
-    img: "silphir.jpg",
+    img: "silphir.webp",
     opts: {
         race: "dragon",
         personality: "innocence",
@@ -641,7 +641,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "speaki",
-    img: "speaki.jpg",
+    img: "speaki.webp",
     opts: {
         race: "phantom",
         personality: "innocence",
@@ -650,7 +650,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "vivi",
-    img: "vivi.jpg",
+    img: "vivi.webp",
     opts: {
         race: "dragon",
         personality: "innocence",
@@ -661,7 +661,7 @@ dataSet[dataSetVersion].characterData = [
 
 {
     name: "alice",
-    img: "alice.jpg",
+    img: "alice.webp",
     opts: {
         race: "phantom",
         personality: "madness",
@@ -670,7 +670,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "annette",
-    img: "annette.jpg",
+    img: "annette.webp",
     opts: {
         race: "dragon",
         personality: "madness",
@@ -679,7 +679,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "belita",
-    img: "belita.jpg",
+    img: "belita.webp",
     opts: {
         race: "witch",
         personality: "madness",
@@ -688,7 +688,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "chloe",
-    img: "chloe.jpg",
+    img: "chloe.webp",
     opts: {
         race: "sprite",
         personality: "madness",
@@ -697,7 +697,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "diana",
-    img: "diana.jpg",
+    img: "diana.webp",
     opts: {
         race: "werebeast",
         personality: "madness",
@@ -706,7 +706,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "ifrit",
-    img: "ifrit.jpg",
+    img: "ifrit.webp",
     opts: {
         race: "elemental",
         personality: "madness",
@@ -715,7 +715,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "leets",
-    img: "leets.jpg",
+    img: "leets.webp",
     opts: {
         race: "dragon",
         personality: "madness",
@@ -724,7 +724,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "maestromk2",
-    img: "maestromk2.jpg",
+    img: "maestromk2.webp",
     opts: {
         race: "elf",
         personality: "madness",
@@ -733,7 +733,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "maison",
-    img: "maison.jpg",
+    img: "maison.webp",
     opts: {
         race: "phantom",
         personality: "madness",
@@ -742,7 +742,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "mayo",
-    img: "mayo.jpg",
+    img: "mayo.webp",
     opts: {
         race: "sprite",
         personality: "madness",
@@ -751,7 +751,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "ner",
-    img: "ner.jpg",
+    img: "ner.webp",
     opts: {
         race: "sprite",
         personality: "madness",
@@ -760,7 +760,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "neti",
-    img: "neti.jpg",
+    img: "neti.webp",
     opts: {
         race: "dragon",
         personality: "madness",
@@ -769,7 +769,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "pira",
-    img: "pira.jpg",
+    img: "pira.webp",
     opts: {
         race: "dragon",
         personality: "madness",
@@ -778,7 +778,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "polan",
-    img: "polan.jpg",
+    img: "polan.webp",
     opts: {
         race: "sprite",
         personality: "madness",
@@ -787,7 +787,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "renewa",
-    img: "renewa.jpg",
+    img: "renewa.webp",
     opts: {
         race: "elf",
         personality: "madness",
@@ -796,7 +796,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "rim-chaos",
-    img: "rim-chaos.jpg",
+    img: "rim-chaos.webp",
     opts: {
         race: "phantom",
         personality: "madness",
@@ -805,7 +805,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "rollet",
-    img: "rollet.jpg",
+    img: "rollet.webp",
     opts: {
         race: "witch",
         personality: "madness",
@@ -814,7 +814,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "shaydi",
-    img: "shaydi.jpg",
+    img: "shaydi.webp",
     opts: {
         race: "phantom",
         personality: "madness",
@@ -823,7 +823,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "sist",
-    img: "sist.jpg",
+    img: "sist.webp",
     opts: {
         race: "dragon",
         personality: "madness",
@@ -832,7 +832,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "tig-hero",
-    img: "tig-hero.jpg",
+    img: "tig-hero.webp",
     opts: {
         race: "werebeast",
         personality: "madness",
@@ -841,7 +841,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "yumimi",
-    img: "yumimi.jpg",
+    img: "yumimi.webp",
     opts: {
         race: "werebeast",
         personality: "madness",
@@ -852,7 +852,7 @@ dataSet[dataSetVersion].characterData = [
 
 {
     name: "arco",
-    img: "arco.jpg",
+    img: "arco.webp",
     opts: {
         race: "elemental",
         personality: "vivacious",
@@ -861,7 +861,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "bana",
-    img: "bana.jpg",
+    img: "bana.webp",
     opts: {
         race: "werebeast",
         personality: "vivacious",
@@ -870,7 +870,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "beni",
-    img: "beni.jpg",
+    img: "beni.webp",
     opts: {
         race: "werebeast",
         personality: "vivacious",
@@ -879,7 +879,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "butter",
-    img: "butter.jpg",
+    img: "butter.webp",
     opts: {
         race: "werebeast",
         personality: "vivacious",
@@ -888,7 +888,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "canna",
-    img: "canna.jpg",
+    img: "canna.webp",
     opts: {
         race: "elf",
         personality: "vivacious",
@@ -897,7 +897,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "carren",
-    img: "carren.jpg",
+    img: "carren.webp",
     opts: {
         race: "sprite",
         personality: "vivacious",
@@ -906,7 +906,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "epica",
-    img: "epica.jpg",
+    img: "epica.webp",
     opts: {
         race: "werebeast",
         personality: "vivacious",
@@ -915,7 +915,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "jubee",
-    img: "jubee.jpg",
+    img: "jubee.webp",
     opts: {
         race: "elemental",
         personality: "vivacious",
@@ -924,7 +924,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "makasha",
-    img: "makasha.jpg",
+    img: "makasha.webp",
     opts: {
         race: "witch",
         personality: "vivacious",
@@ -933,7 +933,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "marie",
-    img: "marie.jpg",
+    img: "marie.webp",
     opts: {
         race: "sprite",
         personality: "vivacious",
@@ -942,7 +942,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "miro",
-    img: "miro.jpg",
+    img: "miro.webp",
     opts: {
         race: "elemental",
         personality: "vivacious",
@@ -951,7 +951,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "momo",
-    img: "momo.jpg",
+    img: "momo.webp",
     opts: {
         race: "werebeast",
         personality: "vivacious",
@@ -960,7 +960,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "mynx",
-    img: "mynx.jpg",
+    img: "mynx.webp",
     opts: {
         race: "werebeast",
         personality: "vivacious",
@@ -969,7 +969,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "rudd",
-    img: "rudd.jpg",
+    img: "rudd.webp",
     opts: {
         race: "dragon",
         personality: "vivacious",
@@ -978,7 +978,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "rufo",
-    img: "rufo.jpg",
+    img: "rufo.webp",
     opts: {
         race: "werebeast",
         personality: "vivacious",
@@ -987,7 +987,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "selline",
-    img: "selline.jpg",
+    img: "selline.webp",
     opts: {
         race: "phantom",
         personality: "vivacious",
@@ -996,7 +996,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "shoupan",
-    img: "shoupan.jpg",
+    img: "shoupan.webp",
     opts: {
         race: "sprite",
         personality: "vivacious",
@@ -1005,7 +1005,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "shuro",
-    img: "shuro.jpg",
+    img: "shuro.webp",
     opts: {
         race: "werebeast",
         personality: "vivacious",
@@ -1014,7 +1014,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "speaki-maid",
-    img: "speaki-maid.jpg",
+    img: "speaki-maid.webp",
     opts: {
         race: "phantom",
         personality: "vivacious",
@@ -1023,7 +1023,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "taida",
-    img: "taida.jpg",
+    img: "taida.webp",
     opts: {
         race: "elf",
         personality: "vivacious",
@@ -1032,7 +1032,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "tig",
-    img: "tig.jpg",
+    img: "tig.webp",
     opts: {
         race: "werebeast",
         personality: "vivacious",
@@ -1041,7 +1041,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "ui",
-    img: "ui.jpg",
+    img: "ui.webp",
     opts: {
         race: "elemental",
         personality: "vivacious",
@@ -1050,7 +1050,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "vela",
-    img: "vela.jpg",
+    img: "vela.webp",
     opts: {
         race: "phantom",
         personality: "vivacious",
@@ -1059,7 +1059,7 @@ dataSet[dataSetVersion].characterData = [
     }
 }, {
     name: "uros",
-    img: "uros.jpg",
+    img: "uros.webp",
     opts: {
         race: "werebeast",
         personality: "resonance",
