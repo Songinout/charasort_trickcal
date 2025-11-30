@@ -54,7 +54,7 @@ dataSet[dataSetVersion].characterData = [
   { name: "Asia", img: "asia.jpg", opts: { race: ["elf"], personality: ["composed"], kronly: true, alt: false } },
   { name: "Aya", img: "aya.jpg", opts: { race: ["witch"], personality: ["composed"], kronly: false, alt: false } },
   { name: "Barong", img: "barong.jpg", opts: { race: ["phantom"], personality: ["composed"], kronly: true, alt: false } },
-  { name: "Benny", img: "benny.jpg", opts: { race: ["werebeast"], personality: ["composed"], kronly: true, alt: false } },
+  { name: "Benny", img: "benny.jpg", opts: { race: ["werebeast"], personality: ["composed"], kronly: true, alt: true } },
   { name: "Caesar", img: "caesar.jpg", opts: { race: ["elemental"], personality: ["composed"], kronly: true, alt: false } },
   { name: "Canta", img: "canta.jpg", opts: { race: ["sprite"], personality: ["composed"], kronly: true, alt: false } },
   { name: "Diana-Heyday", img: "diana-heyday.jpg", opts: { race: ["werebeast"], personality: ["composed"], kronly: true, alt: true } },
